@@ -16,7 +16,9 @@ The purpose of this module is to make it super easy to install and upgrade web a
 
 ``` js
 angular.module('App', ['angular-pouch'])
-  .constant($db, $pouch('idb://mydbname'));
+  .factory($db, function($pouch) {
+    return $pouch('idb://mydbname'); 
+  });
 ```
 
 ## contribute
