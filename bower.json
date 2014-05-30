@@ -9,6 +9,6 @@
   ],
   "dependencies": {
     "pouchdb": "~2.2.0",
-    "angular": "~1.0.7"
+    "angular": "~1.2.16"
   }
 }
