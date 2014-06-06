@@ -1,6 +1,6 @@
 {
   "name": "angular-pouch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "angular-pouch.js",
   "ignore": [
     "**/.*",
@@ -8,7 +8,7 @@
     "components"
   ],
   "dependencies": {
-    "pouchdb-nightly.min": "http://download.pouchdb.com/pouchdb-nightly.min.js",
-    "angular": "~1.0.7"
+    "pouchdb": "~2.2.0",
+    "angular": "~1.2.16"
   }
 }
